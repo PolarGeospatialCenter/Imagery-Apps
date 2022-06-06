@@ -431,12 +431,12 @@ function (declare, lang, array, dojoKernel, dojoConfig, topic, aspect, i18n, coo
             //for app in configWindow and previewWindow, we should not refresh url because there is
             //a DOMException if protocol of iframe is not same as protocol of builder window
             //such as:Blocked a frame with origin "https://***" from accessing a cross-origin frame.
-            if(!tokenUtils.isInConfigOrPreviewWindow()){
-              //if portal uses https protocol, the browser must use https too
-              window.location.protocol = "https:";
-              def.reject();
-              return;
-            }
+            // if(!tokenUtils.isInConfigOrPreviewWindow()){
+            //   //if portal uses https protocol, the browser must use https too
+            //   window.location.protocol = "https:";
+            //   def.reject();
+            //   return;
+            // }
           }
           def.resolve(appConfig);
         }), lang.hitch(this, function(err){

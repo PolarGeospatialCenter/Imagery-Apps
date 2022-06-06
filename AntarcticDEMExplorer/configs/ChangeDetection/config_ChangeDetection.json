@@ -2,6 +2,6 @@
 
 "urlLandsatPS": "https://landsat3.arcgis.com/arcgis/rest/services/Landsat/Antarctic_PS/ImageServer",
 "urlLandsatMS": "https://landsat3.arcgis.com/arcgis/rest/services/Landsat/Antarctic_MS/ImageServer",
-"urlElevation": "https://elevation2.arcgis.com/arcgis/rest/services/Polar/AntarcticDEM/ImageServer",
+"urlElevation": "https://di-pgc.img.arcgis.com/arcgis/rest/services/Testmd13_intovr_zfactor/ImageServer",
 "mapLayer": "https://arcticgeoservices.org/arcgis/rest/services/public/Arctic_Field_Research_Site_Names/MapServer"
 }

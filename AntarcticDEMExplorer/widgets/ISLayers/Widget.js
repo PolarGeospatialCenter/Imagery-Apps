@@ -285,7 +285,7 @@ define([
                             rasterFunction.functionName = this.selectedRadio.id;
                             var args = {};
                             if (this.selectedRadio.id === "Hillshade Gray") {
-                                args.ZFactor_2018610_6519_829 = factor;
+                                args.ZFactor = factor;
                                 rasterFunction.functionArguments = args;
                             } else if (this.selectedRadio.id === "Hillshade Multidirectional") {
                                 args.ZFactor = factor;
@@ -918,7 +918,7 @@ define([
                             var args = {};
                             var factor = registry.byId("zfactorSlider") ? parseFloat(registry.byId("zfactorSlider").get("value")) : 1.0;
                             factor = Math.pow(1.5, factor) - 0.5;
-                            args.ZFactor_2018610_6519_829 = factor;
+                            args.ZFactor = factor;
                             rasterFunction.functionArguments = args;
                         } else if (renderer === "Hillshade Multidirectional") {
                             domStyle.set("zfactorDiv", "display", "block");
