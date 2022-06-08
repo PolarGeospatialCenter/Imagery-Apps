@@ -608,8 +608,7 @@ define([
                     var arguments = {};
                     if (registry.byId("contourIntervalOptions").get("value") !== "0")
                     {
-                        arguments.Interval = parseFloat(registry.byId("contourIntervalOptions").get("value"));
-                        arguments.IntervalSelector = 1;
+                        arguments.ContourInterval = parseFloat(registry.byId("contourIntervalOptions").get("value"));
                     }
                     rasterFunction.functionArguments = arguments;
                     if (this.map.getLayer("contourLayer")) {
