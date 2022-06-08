@@ -1,6 +1,6 @@
 {
     
-    "urlElevationPGC" : "https://di-pgc.img.arcgis.com/arcgis/rest/services/Testmd13_intovr_allrfts_time/ImageServer",
+    "urlElevationPGC" : "https://di-pgc.img.arcgis.com/arcgis/rest/services/Testmd13_intovr_allrfts_time_othomh/ImageServer",
     "msurl": "https://landsat3.arcgis.com/arcgis/rest/services/Landsat/Antarctic_MS/ImageServer"
     
 }
